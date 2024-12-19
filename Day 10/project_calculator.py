@@ -42,6 +42,7 @@ def calculator():
         else:
             should_accumulate = False
             print("See you in next calculation ^_^ ")
+            calculator()
 
 calculator()
 
